@@ -3,7 +3,6 @@ layout: page
 excerpt: "Home"
 ---
 
-# 
 # NBI Biocomputing Group
 ### *bridging the gap between simple models and complex reality*
 

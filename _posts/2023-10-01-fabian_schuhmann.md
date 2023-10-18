@@ -1,6 +1,6 @@
 ---
 layout: post
-excerpt: "Postdoc"
+excerpt: Postdoc
 title: "Fabian Schuhmann"
 tags: [presentation]
 category: presentation
