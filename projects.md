@@ -11,8 +11,6 @@ TS2CG does conversions of triangulated surfaces to (coarse grain) membrane model
 
 TS2CG is an algorithm to backmap a triangulated surface (TS) structure to a corresponding coarse-grained (CG) model. TS2CG is implemented in C++ and includes two separate scripts. Pointillism and CG Membrane Builder. [URL](https://github.com/weria-pezeshkian/TS2CG)
 
-### [polyply](https://github.com/weria-pezeshkian/polyply_1.0)
-Polyply is a python suite designed to facilitate the generation of input files and system coordinates for simulating (bio)macromolecules such as synthetic polymers or polysaccharides. [URL](https://github.com/weria-pezeshkian/polyply_1.0)
 
 ### [SiMBols](https://gitlab.uni-oldenburg.de/quantbiolab/simbols)
 SiMBols is a python package designed to make similarity measures easily accessible for biological systems and to compare spatio-temporal data. The package offers a unified approach to calculate the Frechet distance, the weak Frechet distance, the Hausdorff distance, dynamic time warping, Wasserstein distance, Kullback-Leibler divergence, longest common subsequence and an approach based on difference distance matrices. SiMBols is developed and maintained by Fabian Schuhmann. [URL](https://gitlab.uni-oldenburg.de/quantbiolab/simbols)

@@ -1,15 +1,15 @@
 # Site wide configuration
 
-title: NBI Computational BioMaterials Group 
+title: NBI BioComputing Group 
 locale: da_DK
 logo: logo.jpg
 
 # Enter the following platform usernames if you would like for them to appear on your site.
 owner:
-  name: NBI Computational BioMaterials Group
+  name: NBI BioComputing Group
   avatar: sections.png
   bio: "Niels Bohr Institute, University of Copenhagen"
-  email: weria.pezeshkian@nbi.ku.dk
+  email: 
   # Do not include the @ symbol in your Twitter username
   twitter: WPezeshkian
   linkedin: 
