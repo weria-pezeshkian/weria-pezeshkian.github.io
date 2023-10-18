@@ -1,14 +1,14 @@
 # Site wide configuration
 
-title: NBI BioComputing Group 
+title:  
 locale: da_DK
 logo: logo.jpg
 
 # Enter the following platform usernames if you would like for them to appear on your site.
 owner:
-  name: NBI BioComputing Group
+  name: NBI BioComp
   avatar: sections.png
-  bio: "Niels Bohr Institute, University of Copenhagen"
+  bio: "Niels Bohr International Academy, Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark"
   email: 
   # Do not include the @ symbol in your Twitter username
   twitter: WPezeshkian
