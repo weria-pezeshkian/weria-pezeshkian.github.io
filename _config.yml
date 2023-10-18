@@ -1,0 +1,77 @@
+# Site wide configuration
+
+title: NBI Computational BioMaterials Group 
+locale: da_DK
+logo: logo.jpg
+
+# Enter the following platform usernames if you would like for them to appear on your site.
+owner:
+  name: NBI Computational BioMaterials Group
+  avatar: sections.png
+  bio: "Niels Bohr Institute, University of Copenhagen"
+  email: weria.pezeshkian@nbi.ku.dk
+  # Do not include the @ symbol in your Twitter username
+  twitter: WPezeshkian
+  linkedin: 
+  github: weria-pezeshkian
+  orcid:  
+  researchgate: 
+  mendeley: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    scholar: #id
+  facebook: #username
+  instagram: #username
+  bing-verify:
+  stackoverflow: #123456/username from a "https://stackoverflow.com/users/123456/username" link
+  xing: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+  disqus-shortname:
+
+# The following adjust the accents for your site. If you would like to further edit colors, fonts, font sizes, etc.
+# you may do so in _sass/variables.scss
+highlight-color: '#ff9933'
+lowlight-color: '#196f3d' #triadic color to the highlight color
+
+  # NOTE: If you would like your site to be licensed under a creative commons license, uncomment the 'yes' next to the type of license you wish to use.
+creative-commons:
+  cc-by: #yes
+  cc-by-nc: yes
+
+#DO NOT EDIT BEYOND THIS POINT
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+FOLDER: dist
+BUILD_SCRIPT: mkdir dist && mv src/* dist
