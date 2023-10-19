@@ -1,0 +1,384 @@
+#
+# 1. Careful with indentation
+#
+# 2. Supported statuses:
+#   visiting-professor
+#   postdoc
+#   phd
+#   student
+#
+# 3. You can add several statuses separated by commas and between quotes: e.g. 'a,b,c'
+
+-   name: Jeff Grinstead
+    url: http://webspace.pugetsound.edu/facultypages/jgrinstead/Grinstead/Homepage.html
+    current: 'University of Puget Sound, WA, USA'
+    status: visiting-professor
+    
+-   name: Victor Hsu 
+    url: http://biochem.science.oregonstate.edu/content/victor-hsu
+    current: 'Oregon State University, Corvallis OR, USA'
+    status: visiting-professor
+
+-   name: João Teixeira
+    current: 'University of Padova, Italy'
+    url: https://fuxreiterlab.github.io/index.html
+    status: 'postdoc'
+
+-   name: Siri van Keulen
+    current: 'Aqemia, Paris, France'
+    url: https://www.aqemia.com
+    status: 'postdoc'
+
+-   name: Manon Réau
+    current: 'Qubit Pharmaceuticals, Paris, France'
+    url: https://qubit-pharmaceuticals.com
+    status: 'postdoc'
+
+-   name: Panagiotis Koukos
+    url: http://www.drugdesign.gr
+    current: 'Biomedical Research Foundation, Academy of Athens, Greece'
+    status: 'postdoc,phd'
+
+-   name: Brian Jimenez Garcia
+    url: https://zymvol.com
+    current: 'Senior Researcher and Tecniospring INDUSTRY fellow at ZYMVOL,Barcelona, Spain'
+    status: 'postdoc'
+
+-   name: Zuzana Jandova
+    url: https://www.boehringer-ingelheim.at/en
+    current: 'Boehringer Ingelheim, Vienna, Austria'
+    status: 'postdoc'
+
+-   name: Jorge Roel
+    url: https://www.ibmb.csic.es/en/department-of-structural-biology-dsb/protein-design-and-modeling
+    current: 'IBMB, Barcelona, Spain'
+    status: phd
+
+-   name: Francesco Ambrosetti
+    current: 'Novartis, Switzerland'
+    status: 'postdoc,phd'
+
+-   name: Li Xue
+    url: https://www.radboudumc.nl/en/people/li-xue
+    current: 'Radboud University Medical Center, the Netherlands'
+    status: 'assistant-professor,postdoc'
+
+-   name: Attilio Vargiu
+    url: http://people.unica.it/attiliovargiu
+    current: 'University of Cagliari, Sardinia, Italy'
+    status: postdoc
+
+-   name: Adrien Melquiond 
+    url: http://www.ubc.uu.nl    
+    current: 'Utrecht Bioinformatic Center and University Medical Center Utrecht'
+    status: postdoc
+
+-   name: Mikael Trellet
+    url: http://www.fluigent.com
+    current: 'Fluigent Smart Mircrofluidic, Paris, France'
+    status: 'postdoc,student'
+
+-   name: Cunliang Geng
+    status: 'postdoc,phd'
+
+-   name: Cristina Paissoni
+    url: http://sites.unimi.it/camilloni/
+    current: 'University of Milano, Italy'
+    status: visiting-postdoc
+
+-   name: Joerg Schaarschmidt
+    url:  http://www.kit.edu/english/
+    current: 'Karlsruhe Institute of Technology, Germany'
+    status: postdoc
+
+-   name: Irina Moreira 
+    url:  http://www.moreiralab.com/
+    current: 'Universidade de Coimbrae, Portugal'
+    status: postdoc
+
+-   name: Anna Vangone
+    url:  http://www.roche.com
+    current: 'Roche Diagnostics GmbH, Munich, Germany'
+    status: postdoc
+
+-   name: Zeynep Kurkcuoglu
+    current: 'UMC Utrecht, Julius Institute, the Netherlands'
+    status: postdoc
+
+-   name: Gydo van Zundert
+    url: https://github.com/latrocinia
+    current: 'Schrödinger Inc., NY - Stanford University - UCSF, CA, USA'
+    status: 'postdoc,phd'
+
+-   name: Joao Rodrigues
+    url: http://github.com/JoaoRodrigues
+    current: 'Stanford University, School of Medicine'
+    status: 'postdoc,phd,student'
+    
+-   name: Marc van Dijk
+    url: http://www.aimms.vu.nl/en/people/d/marc-van-dijk.asp
+    current: 'VU, Amsterdam'
+    status: 'postdoc,phd,student'
+    
+-   name: Christophe Schmitz
+    url: http://nl.linkedin.com/in/cpfschmitz/en
+    current: 'Actian Corporation, Paris'
+    status: postdoc
+
+-   name: Dirk Straatman
+    url: http://www.impmc.upmc.fr/~stratmann
+    current: 'Universite Pierre et Marie Curie (UPMC) - Paris VI, France'
+    status: postdoc
+
+-   name: Nuno L. Ferreira
+    url: http://www.egi.eu/about/people/Nuno_Ferreira.html
+    current: 'European Grid Initiative, Amsterdam'
+    status: postdoc
+
+-   name: Tsjerk Wassenaar
+    url: https://www.linkedin.com/in/tsjerkwassenaar
+    current: 'RUG, Groningen'
+    status: postdoc
+
+-   name: Christian Koehler
+    url: http://archive.igbmc.fr/recherche/Dep_BSG/Eq_BruKief/index_uk.html
+    current: 'IGBMC, Strasbourg, France'
+    status: postdoc
+
+-   name: Alexey Neumoin
+    url: http://www.amway.com
+    current: 'Amway, Moscow, Russia'
+    status: postdoc
+
+-   name: Ludovic Carlier
+    url: http://www.chimie.ens.fr/?q=umr-7203/profil/ludovic.carlier
+    current: CNRS, Universite Pierre et Marie Curie, Paris, France
+    status: postdoc
+
+-   name: Aurelien Thureau
+    url: http://www.synchrotron-soleil.fr
+    current: Synchrotron Soleil, Paris, France
+    status: postdoc
+
+-   name: Gloria Fuentes
+    url: http://www.hummingbirdbioscience.com
+    current: 'Hummingbird Bioscience, Singapore'
+    status: postdoc
+
+-   name: Ezgi Karaca
+    url: http://www.ibg.edu.tr/research/research-groups/karaca-lab/
+    current: 'Izmir Biomedicine and Genome Center'
+    status: phd
+
+-   name: Panagiotis Kastritis
+    url: https://www.uni-halle.de
+    current: 'Martin-Luther Universität Halle-Wittenberg, Germany'
+    status: 'postdoc,phd'
+
+-   name: Sjoerd de Vries
+    url: http://www.mti.univ-paris-diderot.fr/en/
+    current: 'Université Paris-Diderot, Paris'
+    status: 'phd,student'
+    
+-   name: Mickaël Krzeminski
+    url: https://www.linkedin.com/in/mkrzemin
+    current: 'Cyclica Inc., Canada'
+    status: phd
+
+-   name: Aalt-Jan van Dijk
+    url: https://www.wageningenur.nl/en/Persons/dr.-ADJ-AaltJan-van-Dijk.htm
+    current: 'Wageningen UR, Wageningen, Netherlands'
+    status: phd
+    
+-   name: Danny S.-T. Hsu
+    url: https://sites.google.com/site/hsushangte/
+    current: 'Academia Sinica, Taiwan'
+    status: phd
+    
+-   name: Cyril Dominguez
+    url: http://www2.le.ac.uk/departments/biochemistry/staff/cyril-dominguez
+    current: 'Leicester University, UK'
+    status: phd
+    
+-   name: Thomas Stockner
+    url: http://www.meduniwien.ac.at/pharmakologie/stockner
+    current: 'Medical University of Vienna, Austria'
+    status: phd
+    
+-   name: Kira Devantier
+    current: 'University of Copenhagen'
+    status: visiting-phd
+
+-   name: Anna Ranaudo
+    current: 'University of Milano-Bicocca'
+    status: visiting-phd
+
+-   name: Farzaneh Meimandi Parizi
+    current: 'University of Nijmegen, Netherlands'
+    status: visiting-phd
+    
+-   name: Andrea Basciu
+    current: 'University of Cagliari, Italy'
+    status: visiting-phd
+
+-   name: Miguel Pedrouzo
+    current: 'University of Valencia, Spain'
+    status: visiting-phd
+
+-   name: Malgorzata Szelag
+    url: http://amu.academia.edu/Ma?gorzataSzelag
+    current: 'Adam Mickiewicz University, Poznan, Poland'
+    status: visiting-phd
+
+-   name: Jeaphianne van Rijn
+    current: 'UMC Utrecht, the Netherlands'
+    status: visiting-phd
+
+-   name: Venkata Krishnan Ramaswamy
+    current: 'Cagliari University, Italy'
+    status: visiting-phd
+
+-   name: Siddarth Narasimhan
+    url: http://www.uu.nl/nmr
+    current: 'Solid state NMR group, Utrecht, the Netherlands'
+    status: student
+
+-   name: Stefano Tagliabue
+    status: student
+
+-   name: Mehdi Nellen
+    status: student
+
+-   name: Annin Ramsing
+    url: http://www.linkedin.com/pub/annin-ramsing/91/15/527
+    current: 'Tatsuno-shi, Hyogo, Japan'
+    status: student
+
+-   name: Charleen Don
+    current: 'University of Basel, Switzerland'
+    status: student
+    
+-   name: Koen Visscher
+    current: 'VU, Amsterdam, Netherlands'
+    status: student
+    
+-   name: Manisha Anandbahadour
+    current: 'ABN-AMRO, Netherlands'
+    status: student
+    
+-   name: Gijs van der Schot
+    url: http://katalog.uu.se/empinfo/?id=N11-1085
+    current: 'Uppsala University, Sweden'
+    status: student
+
+-   name: Chiara Fais
+    current: 'Cagliari University, Italy'
+    status: student
+
+-   name: Kasey Pham
+    current: 'Michigan State University, USA'
+    status: student
+
+-   name: Marijne Schijns
+    status: student
+
+-   name: Nevia Citro
+    status: student
+
+-   name: Sevilay Gülesen
+    status: student
+
+-   name: Raphaëlle Versini
+    status: student
+
+-   name: Rosanna Denis
+    status: student
+
+-   name: Carlos Barreto
+    current: 'University of Coimbra, Portugal'
+    status: student
+
+-   name: Daan Sybrandi
+    status: student
+
+-   name: Zhengyue Zhang
+    status: student
+
+-   name: Angelina Claij
+    status: student
+
+-   name: Mick Walter
+    status: student
+
+-   name: Floor van der Valk
+    status: student
+
+-   name: Leander Goldbach
+    status: student
+
+-   name: Bastiaan de Graaf
+    status: student
+
+-   name: Sofia Rosback
+    status: student
+
+-   name: Adrian Gondra Gogorza
+    status: student
+
+-   name: Sam de Vos
+    status: student
+
+-   name: Tim Neijenhuis
+    status: student
+
+-   name: Greg Kafetzopoulos
+    status: student
+
+-   name: Etjen Ahmic
+    status: student
+
+-   name: Nikolaos Glentis
+    status: student
+
+-   name: Andreas Palazi
+    status: student
+
+-   name: Lotte Manenschijn
+    status: student
+
+-   name: Vicky Charitou
+    status: student
+
+-   name: Nicky Kromdijk
+    status: student
+
+-   name: Angela Pelissou Ayuso
+    status: student
+
+-   name: Rayan Hassaine
+    status: student
+
+-   name: Camilla Guccione
+    status: student
+
+-   name: Douwe chulte
+    status: student
+
+-   name: Filippo Baldessari
+    status: student
+
+-   name: Jesús Lopez Rivera
+    status: student
+
+-   name: Ivar de Leeuw
+    status: student
+
+-   name: Rafaella Buzatu
+    status: student
+
+-   name: Aldo van den Nieuwendijk
+    status: student
+
+
+
+

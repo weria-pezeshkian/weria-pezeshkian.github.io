@@ -1,10 +1,8 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll", "~> 3.0"
+gem 'jekyll'
 gem "jekyll-sitemap"
-gem "jekyll-seo-tag"
-gem "jekyll-gist"
-gem "octopress"
-gem "kramdown-parser-gfm"
+gem 'octopress', '~> 3.0.0.rc.12'
+gem 'github-pages'
 
 gem "webrick", "~> 1.8"

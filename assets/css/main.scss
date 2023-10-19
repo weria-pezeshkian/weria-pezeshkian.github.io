@@ -7,13 +7,11 @@ sitemap: false
  *  Minimal Mistakes
  *
  *  Designer: Michael Rose
- *  Twitter: https://twitter.com/mmistakes
+ *  Twitter: http://twitter.com/mmistakes
  *
 */
 
 // Partials
-$highlightcolor: {{ site.highlight-color }};
-$lowlightcolor: {{ site.lowlight-color }};
 @import "variables";
 @import "grid";
 @import "mixins";
@@ -25,7 +23,9 @@ $lowlightcolor: {{ site.lowlight-color }};
 @import "elements";
 @import "forms";
 @import "page";
+@import "fullpage";
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
 //@import "vendor/google/fonts";
-@import "print";
+
+@import "people";
