@@ -6,4 +6,9 @@ image:
 
 ---
 
-We do development.
+- Biophysical modeling of
+ - membranes
+ - proteins
+ - membrane protein complexes
+- All-atom, coarse-grained, and mesoscale simulations
+ 
