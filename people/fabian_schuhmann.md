@@ -13,7 +13,6 @@ image:
 **Mail**: [fabian.schuhmann@nbi.ku.dk](fabian.schuhmann@nbi.ku.dk)<br />
 **Website**: [fabianschuhmann.github.io](https://fabianschuhmann.github.io)<br />
 **Address**: Blegdamsvej 17, DK-2100 Copenhagen Building K, room Kc10<br />
-**What you want added**: Maybe your Orcid<br />
 **ResearchGate**: [Go to ResearchGate Profile](https://www.researchgate.net/profile/Fabian-Schuhmann-2)
 
 # Education:
