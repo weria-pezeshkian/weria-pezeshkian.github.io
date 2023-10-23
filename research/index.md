@@ -7,8 +7,8 @@ image:
 ---
 
 - Biophysical modeling of
- - membranes
- - proteins
- - membrane protein complexes
+  - membranes
+  - proteins
+  - membrane protein complexes
 - All-atom, coarse-grained, and mesoscale simulations
  
