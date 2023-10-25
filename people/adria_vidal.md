@@ -1,12 +1,12 @@
 ---
 layout: page
-title:  Adria Bravo Verdal
+title:  Adrià Bravo Vidal
 image:
   feature: banner.png
 
 ---
 
-<img src="/images/AdriaVerdal.jpg" alt="drawing" width="200"/>
+<img src="/images/AdriaVidal.jpg" alt="drawing" width="200"/>
 
 # Personal Information:
 **Name**: Adrià Bravo Vidal<br />

@@ -8,7 +8,7 @@ image:
 
 ## Principal Investigator
 
-Weria Pezeshkian<br />
+[Weria Pezeshkian](/people/weria_pezeshkian)<br />
 ([weria.pezeshkian@nbi.ku.dk](mailto:weria.pezeshkian@nbi.ku.dk))
 
 ## Postdocs
@@ -21,5 +21,5 @@ Weria Pezeshkian<br />
 
 ## Ph.D. Students
 
-[Adria Bravo Verdal](/people/adria_verdal)<br />
+[Adria Bravo Vidal](/people/adria_vidal)<br />
 ([adria.vidal@nbi.ku.dk](mailto:adria.vidal@nbi.ku.dk))
