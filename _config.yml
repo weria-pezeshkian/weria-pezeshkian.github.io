@@ -45,7 +45,7 @@ safe: true
 # Site owner
 owner:
   name: Weria Pezeshkian
-  avatar: sections.png
+  avatar: logo.png
   bio: "Computational microscopy group at the Niels Bohr International Academy, Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark."
   github: weria-pezeshkian
   twitter: WPezeshkian
