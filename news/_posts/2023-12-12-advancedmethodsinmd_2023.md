@@ -1,7 +1,7 @@
 ---
 layout: news
 title: "Advanced Methods in MD"
-excerpt: "The whole group attended" 
+excerpt: "The whole group attended and hosted a FreeDTS workshop" 
 image:
   feature: banner.png
 ---
