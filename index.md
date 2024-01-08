@@ -17,5 +17,4 @@ We are grateful for the support from Novo Nordisk Foundation and Independent Res
 Grants:<br />
 Sapere Aude Research Leaders Grant from Independent Research Fund Denmark<br />
 Novo Nordisk Foundation Project Grant<br />
-Novo Nordisk Foundation RECRUIT Program<br />
 
