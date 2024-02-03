@@ -9,7 +9,7 @@ image:
 ## Open Position: PhD Student
 
 The group is hiring a new PhD student to join the team. Details about the position can be found [here](https://candidate.hr-manager.net/ApplicationInit.aspx/?cid=1307&departmentId=18972&ProjectId=161042&MediaId=5&SkipAdvertisement=false).
-Application deadline is 30th of March 2024.
+Application deadline is 30th of March 2024. 
 
 **The project**
 
