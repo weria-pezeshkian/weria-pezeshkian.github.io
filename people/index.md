@@ -23,3 +23,7 @@ image:
 
 [Adria Bravo Vidal](/people/adria_vidal)<br />
 ([adria.vidal@nbi.ku.dk](mailto:adria.vidal@nbi.ku.dk))
+
+
+[Beatrice Geiger](/people/beatrice_geiger)<br />
+([beatrice.geiger@nbi.ku.dk](mailto:beatrice.geiger@nbi.ku.dk))
