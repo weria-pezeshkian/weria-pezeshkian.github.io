@@ -27,3 +27,7 @@ image:
 
 [Beatrice Geiger](/people/beatrice_geiger)<br />
 ([beatrice.geiger@nbi.ku.dk](mailto:beatrice.geiger@nbi.ku.dk))
+
+
+[Isabell Lindahl](/people/isabell_lindahl)<br />
+([isabell.lindahl@nbi.ku.dk](mailto:isabell.lindahl@nbi.ku.dk))
