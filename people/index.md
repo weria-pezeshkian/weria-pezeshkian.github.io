@@ -31,3 +31,12 @@ image:
 
 [Isabell Lindahl](/people/isabell_lindahl)<br />
 ([isabell.lindahl@nbi.ku.dk](mailto:isabell.lindahl@nbi.ku.dk))
+
+
+[Brian Ratnasinghe](/people/brian_ratnasinghe)<br />
+([brian.ratnasinghe@nbi.ku.dk](mailto:brian.ratnasinghe@nbi.ku.dk))
+
+## Master Students
+
+[Dimitrios Anastasiou](/people/dimitrios_anastasiou)<br />
+([bqg849@alumni.ku.dk](mailto:bqg849@alumni.ku.dk))
