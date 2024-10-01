@@ -6,8 +6,9 @@ image:
 
 ---
 
+<!---
 <img src="/images/BrianRatnasinghe.jpg" alt="drawing" width="200"/>
-
+--->
 
 # Personal Information:
 **Name**: Dimitrios Anastasiou<br />
