@@ -6,6 +6,6 @@ image:
   feature: banner.png
 ---
 
-## New Ph.D.
+## New Master student
 
-Dimitrios Anastasiou joined the group as a new Masters student. To learn more about him, visit [Link](/people/brian_ratnasinghe)
+Dimitrios Anastasiou joined the group as a new Masters student. To learn more about him, visit [Link](/people/dimitrios_anastasiou)

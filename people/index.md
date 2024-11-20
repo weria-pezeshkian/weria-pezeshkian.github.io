@@ -40,3 +40,7 @@ image:
 
 [Dimitrios Anastasiou](/people/dimitrios_anastasiou)<br />
 ([bqg849@alumni.ku.dk](mailto:bqg849@alumni.ku.dk))
+
+
+[Cecilie K. Nøhr](/people/cecilie_noehr)<br />
+([fsh823@ku.dk](mailto:fsh823@ku.dk))
