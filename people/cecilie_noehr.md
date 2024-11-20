@@ -7,7 +7,7 @@ image:
 ---
 
 
-<img src="/images/CecilieNoehr.jpg" alt="drawing" width="200"/>
+<img src="/images/CecilieNoehr.jpeg" alt="drawing" width="200"/>
 
 
 # Personal Information:
