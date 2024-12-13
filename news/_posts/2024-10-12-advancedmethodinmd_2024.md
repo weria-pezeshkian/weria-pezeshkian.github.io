@@ -1,12 +1,12 @@
 ---
 layout: news
-title: "Advanced Methods in MD 2024"
+title: "Advances in Molecular Modeling 2024"
 excerpt: "everyone organized and joined" 
 image:
   feature: banner.png
 ---
 
-## Advanced Methods in MD 2024
+## Advances in Molecular Modeling 2024
 
 Excerpt from LinkedIn:
 
