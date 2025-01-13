@@ -14,7 +14,7 @@ sys.path.insert(0, os.path.abspath('../'))  # Adjust path to locate your module
 project = 'Python modules'
 copyright = 'Weria Pezeshkian, 2024'
 author = 'Weria Pezeshkian'
-release = '1.2.2'
+release = '2.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
