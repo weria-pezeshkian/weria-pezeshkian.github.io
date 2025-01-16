@@ -1,0 +1,45 @@
+TS2CG.tools package
+===================
+
+Submodules
+----------
+
+TS2CG.tools.circular\_domains module
+------------------------------------
+
+.. automodule:: TS2CG.tools.circular_domains
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+TS2CG.tools.dir\_visualizer module
+----------------------------------
+
+.. automodule:: TS2CG.tools.dir_visualizer
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+TS2CG.tools.domain\_placer module
+---------------------------------
+
+.. automodule:: TS2CG.tools.domain_placer
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+TS2CG.tools.inclusion\_updater module
+-------------------------------------
+
+.. automodule:: TS2CG.tools.inclusion_updater
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: TS2CG.tools
+   :members:
+   :undoc-members:
+   :show-inheritance:

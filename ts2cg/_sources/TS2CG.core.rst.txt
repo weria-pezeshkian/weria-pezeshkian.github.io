@@ -1,0 +1,21 @@
+TS2CG.core package
+==================
+
+Submodules
+----------
+
+TS2CG.core.point module
+-----------------------
+
+.. automodule:: TS2CG.core.point
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: TS2CG.core
+   :members:
+   :undoc-members:
+   :show-inheritance:

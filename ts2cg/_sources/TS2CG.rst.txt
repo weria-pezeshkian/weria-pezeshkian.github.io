@@ -1,0 +1,31 @@
+TS2CG package
+=============
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   TS2CG.core
+   TS2CG.cpp
+   TS2CG.tools
+
+Submodules
+----------
+
+TS2CG.run\_modules module
+-------------------------
+
+.. automodule:: TS2CG.run_modules
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: TS2CG
+   :members:
+   :undoc-members:
+   :show-inheritance:
