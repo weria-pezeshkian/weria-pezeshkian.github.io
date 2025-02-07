@@ -44,3 +44,6 @@ image:
 
 [Cecilie K. Nøhr](/people/cecilie_noehr)<br />
 ([fsh823@ku.dk](mailto:fsh823@ku.dk))
+
+[Andrew Bach Villadsen](/people/andrew_villadsen)<br />
+([wvl158@alumni.ku.dk](mailto:wvl158@alumni.ku.dk))
