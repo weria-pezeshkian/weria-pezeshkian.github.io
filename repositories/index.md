@@ -12,7 +12,7 @@ FreeDTS is software to perform computational research on biomembranes at messocp
 ### [TS2CG](https://github.com/weria-pezeshkian/TS2CG)
 TS2CG does conversions of triangulated surfaces to (coarse grain) membrane models for molecular simulation. It also works as a backmapping algorithm from dynamically triangulated surfaces simulations to CG molecular dynamics simulations or to take electron microscopy tomography data and build structures for molecular dynamics simulations.
 
-TS2CG is an algorithm to backmap a triangulated surface (TS) structure to a corresponding coarse-grained (CG) model. TS2CG is implemented in C++ and includes two separate scripts. Pointillism and CG Membrane Builder. [URL](https://github.com/weria-pezeshkian/TS2CG)
+TS2CG is an algorithm to backmap a triangulated surface (TS) structure to a corresponding coarse-grained (CG) model. TS2CG is implemented in C++ and includes two separate scripts. Pointillism and CG Membrane Builder. A custom python framework allows the manipulation of membrane to fine-tune lateral organization of lipids and proteins. The repository is available [here](https://github.com/weria-pezeshkian/TS2CG) with the documentation for the C++ programs. The documentation for the python framework can be found [here](https://weria-pezeshkian.github.io/TS2CG_python_documentation/) 
 
 
 ### [SiMBols](https://gitlab.uni-oldenburg.de/quantbiolab/simbols)
