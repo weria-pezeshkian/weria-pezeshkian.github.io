@@ -1,0 +1,988 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PointClass.point &#8212; Python modules 1.2.2 documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=a746c00c" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../../_static/documentation_options.js?v=fd7cadf9"></script>
+    <script src="../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '_modules/PointClass/point';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">Python modules 1.2.2 documentation</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../PointClass.html">
+    PointClass Documentation
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../tool.html">
+    Tools Documentation
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar hide-on-wide">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../PointClass.html">
+    PointClass Documentation
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../tool.html">
+    Tools Documentation
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+      </div>
+    
+  </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../index.html" class="nav-link">Module code</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">PointClass.point</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <h1>Source code for PointClass.point</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Union</span><span class="p">,</span> <span class="n">List</span>
+
+<span class="kn">import</span> <span class="nn">shutil</span>
+<span class="kn">from</span> <span class="nn">io</span> <span class="kn">import</span> <span class="n">StringIO</span>
+<span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="Point">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point">[docs]</a>
+<span class="k">class</span> <span class="nc">Point</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    A class representing a membrane structure with inclusions and exclusions.</span>
+<span class="sd">    Can be initialized from a point folder or built from scratch.</span>
+
+<span class="sd">    Examples:</span>
+<span class="sd">        # Create bilayer</span>
+<span class="sd">        &gt;&gt;&gt; membrane = Point.create_empty()</span>
+<span class="sd">        &gt;&gt;&gt; membrane.add_membrane_points(coordinates, normals)</span>
+
+<span class="sd">        # Create monolayer</span>
+<span class="sd">        &gt;&gt;&gt; monolayer = Point.create_empty(monolayer=True)</span>
+<span class="sd">        &gt;&gt;&gt; monolayer.add_membrane_points(coordinates, normals)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="Point.Membrane">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.Membrane">[docs]</a>
+    <span class="k">class</span> <span class="nc">Membrane</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Represents a membrane layer with associated properties.&quot;&quot;&quot;</span>
+
+        <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">):</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;Initialize membrane layer from raw data.&quot;&quot;&quot;</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_process_data</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+
+        <span class="k">def</span> <span class="nf">_process_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">):</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;Convert raw data into accessible properties.&quot;&quot;&quot;</span>
+            <span class="c1"># Basic properties</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">ids</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">domain_ids</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">area</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+
+            <span class="c1"># Coordinates and vectors</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">coordinates</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span><span class="o">.</span><span class="n">T</span>  <span class="c1"># X, Y, Z</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">normals</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="mi">6</span><span class="p">:</span><span class="mi">9</span><span class="p">]</span><span class="o">.</span><span class="n">T</span>      <span class="c1"># Nx, Ny, Nz</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">principal_vectors</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="s1">&#39;p1&#39;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="mi">9</span><span class="p">:</span><span class="mi">12</span><span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="p">,</span>   <span class="c1"># P1x, P1y, P1z</span>
+                <span class="s1">&#39;p2&#39;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="mi">12</span><span class="p">:</span><span class="mi">15</span><span class="p">]</span><span class="o">.</span><span class="n">T</span>    <span class="c1"># P2x, P2y, P2z</span>
+            <span class="p">}</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">curvature</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="s1">&#39;c1&#39;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="mi">15</span><span class="p">],</span>        <span class="c1"># First principal curvature</span>
+                <span class="s1">&#39;c2&#39;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="mi">16</span><span class="p">]</span>         <span class="c1"># Second principal curvature</span>
+            <span class="p">}</span>
+<div class="viewcode-block" id="Point.Membrane.create_empty">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.Membrane.create_empty">[docs]</a>
+        <span class="nd">@classmethod</span>
+        <span class="k">def</span> <span class="nf">create_empty</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;Create an empty membrane layer.&quot;&quot;&quot;</span>
+            <span class="n">instance</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">)</span>
+            <span class="n">instance</span><span class="o">.</span><span class="n">ids</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([],</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">int</span><span class="p">)</span>
+            <span class="n">instance</span><span class="o">.</span><span class="n">domain_ids</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([],</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">int</span><span class="p">)</span>
+            <span class="n">instance</span><span class="o">.</span><span class="n">area</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([])</span>
+            <span class="n">instance</span><span class="o">.</span><span class="n">coordinates</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([])</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+            <span class="n">instance</span><span class="o">.</span><span class="n">normals</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([])</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+            <span class="n">instance</span><span class="o">.</span><span class="n">principal_vectors</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="s1">&#39;p1&#39;</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([])</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span>
+                <span class="s1">&#39;p2&#39;</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([])</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+            <span class="p">}</span>
+            <span class="n">instance</span><span class="o">.</span><span class="n">curvature</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="s1">&#39;c1&#39;</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([]),</span>
+                <span class="s1">&#39;c2&#39;</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([])</span>
+            <span class="p">}</span>
+            <span class="k">return</span> <span class="n">instance</span></div>
+
+     
+<div class="viewcode-block" id="Point.Membrane.add_points">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.Membrane.add_points">[docs]</a>
+        <span class="k">def</span> <span class="nf">add_points</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">coordinates</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">,</span> <span class="n">normals</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+                      <span class="n">domain_ids</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">areas</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">            Add points to the membrane layer.</span>
+
+<span class="sd">            Args:</span>
+<span class="sd">               coordinates: Nx3 array of point coordinates</span>
+<span class="sd">                normals: Nx3 array of normal vectors (optional)</span>
+<span class="sd">                domain_ids: Array of domain IDs (optional)</span>
+<span class="sd">                areas: Array of point areas (optional)</span>
+<span class="sd">            &quot;&quot;&quot;</span>
+            <span class="n">n_points</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">coordinates</span><span class="p">)</span>
+
+            <span class="c1"># Set IDs</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">ids</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">n_points</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">int</span><span class="p">)</span>
+
+            <span class="c1"># Set coordinates</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">coordinates</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">coordinates</span><span class="p">)</span>
+
+            <span class="c1"># Set normals or generate default</span>
+            <span class="k">if</span> <span class="n">normals</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">normals</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">normals</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">normals</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros_like</span><span class="p">(</span><span class="n">coordinates</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">normals</span><span class="p">[:,</span> <span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.0</span>  <span class="c1"># Default normal pointing up</span>
+
+            <span class="c1"># Set domain IDs or default to 0</span>
+            <span class="k">if</span> <span class="n">domain_ids</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">domain_ids</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">domain_ids</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">domain_ids</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">n_points</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">int</span><span class="p">)</span>
+
+            <span class="c1"># Set areas or default to 1.0</span>
+            <span class="k">if</span> <span class="n">areas</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">area</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">areas</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">area</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">n_points</span><span class="p">)</span>
+
+            <span class="c1"># Initialize principal vectors and curvatures</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">principal_vectors</span><span class="p">[</span><span class="s1">&#39;p1&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros_like</span><span class="p">(</span><span class="n">coordinates</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">principal_vectors</span><span class="p">[</span><span class="s1">&#39;p2&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros_like</span><span class="p">(</span><span class="n">coordinates</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">curvature</span><span class="p">[</span><span class="s1">&#39;c1&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">n_points</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">curvature</span><span class="p">[</span><span class="s1">&#39;c2&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">n_points</span><span class="p">)</span></div>
+
+
+        <span class="nd">@property</span>
+        <span class="k">def</span> <span class="nf">mean_curvature</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">:</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;Calculate mean curvature for all points.&quot;&quot;&quot;</span>
+            <span class="k">return</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">curvature</span><span class="p">[</span><span class="s1">&#39;c1&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">curvature</span><span class="p">[</span><span class="s1">&#39;c2&#39;</span><span class="p">])</span> <span class="o">/</span> <span class="mi">2</span>
+
+
+<div class="viewcode-block" id="Point.Membrane.gaussian_curvature">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.Membrane.gaussian_curvature">[docs]</a>
+        <span class="k">def</span> <span class="nf">gaussian_curvature</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">:</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;Calculate Gaussian curvature for all points.&quot;&quot;&quot;</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">curvature</span><span class="p">[</span><span class="s1">&#39;c1&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">curvature</span><span class="p">[</span><span class="s1">&#39;c2&#39;</span><span class="p">]</span></div>
+
+
+
+<div class="viewcode-block" id="Point.Membrane.get_points_by_domain">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.Membrane.get_points_by_domain">[docs]</a>
+        <span class="k">def</span> <span class="nf">get_points_by_domain</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">domain_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">:</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;Get coordinates of all points in a specific domain.&quot;&quot;&quot;</span>
+            <span class="n">mask</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">domain_ids</span> <span class="o">==</span> <span class="n">domain_id</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">coordinates</span><span class="p">[</span><span class="n">mask</span><span class="p">]</span></div>
+</div>
+
+
+<div class="viewcode-block" id="Point.Inclusion">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.Inclusion">[docs]</a>
+    <span class="k">class</span> <span class="nc">Inclusion</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Manages protein inclusions in the membrane.&quot;&quot;&quot;</span>
+
+        <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">points</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">if</span> <span class="n">data</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_process_data</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+
+        <span class="k">def</span> <span class="nf">_process_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">):</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;Process inclusion data.&quot;&quot;&quot;</span>
+            <span class="k">if</span> <span class="n">data</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="k">return</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
+                <span class="n">data</span><span class="o">.</span><span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]):</span>
+                <span class="n">point</span> <span class="o">=</span> <span class="p">{</span>
+                    <span class="s1">&#39;id&#39;</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="n">i</span><span class="p">]),</span>
+                    <span class="s1">&#39;type_id&#39;</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="n">i</span><span class="p">]),</span>
+                    <span class="s1">&#39;point_id&#39;</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="n">i</span><span class="p">]),</span>
+                    <span class="s1">&#39;orientation&#39;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">6</span><span class="p">,</span> <span class="n">i</span><span class="p">]</span>
+                <span class="p">}</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">points</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">point</span><span class="p">)</span>
+
+        <span class="nd">@property</span>
+        <span class="k">def</span> <span class="nf">count</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;Number of protein inclusions.&quot;&quot;&quot;</span>
+            <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">points</span><span class="p">)</span>
+
+<div class="viewcode-block" id="Point.Inclusion.get_all">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.Inclusion.get_all">[docs]</a>
+        <span class="k">def</span> <span class="nf">get_all</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">dict</span><span class="p">]:</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;Get all points with protein inclusions.&quot;&quot;&quot;</span>
+            <span class="k">return</span> <span class="p">[</span><span class="n">p</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">points</span><span class="p">]</span></div>
+
+
+<div class="viewcode-block" id="Point.Inclusion.get_by_type">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.Inclusion.get_by_type">[docs]</a>
+        <span class="k">def</span> <span class="nf">get_by_type</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">type_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">dict</span><span class="p">]:</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;Get all inclusions of a specific type.&quot;&quot;&quot;</span>
+            <span class="k">return</span> <span class="p">[</span><span class="n">p</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">points</span> <span class="k">if</span> <span class="n">p</span><span class="p">[</span><span class="s1">&#39;type_id&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">type_id</span><span class="p">]</span></div>
+
+
+<div class="viewcode-block" id="Point.Inclusion.add_protein">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.Inclusion.add_protein">[docs]</a>
+        <span class="k">def</span> <span class="nf">add_protein</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">type_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">point_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
+                       <span class="n">orientation</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">])):</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">            Add a protein inclusion.</span>
+
+<span class="sd">            Args:</span>
+<span class="sd">                type_id: Type identifier for the protein</span>
+<span class="sd">                point_id: Point ID where protein should be placed</span>
+<span class="sd">                orientation: Vector specifying protein orientation</span>
+<span class="sd">            &quot;&quot;&quot;</span>
+            <span class="k">if</span> <span class="n">orientation</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">orientation</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+
+            <span class="n">orientation</span><span class="o">=</span><span class="n">orientation</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">orientation</span><span class="p">)</span>
+
+            <span class="n">point</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="s1">&#39;id&#39;</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">points</span><span class="p">),</span>
+                <span class="s1">&#39;type_id&#39;</span><span class="p">:</span> <span class="n">type_id</span><span class="p">,</span>
+                <span class="s1">&#39;point_id&#39;</span><span class="p">:</span> <span class="n">point_id</span><span class="p">,</span>
+                <span class="s1">&#39;orientation&#39;</span><span class="p">:</span> <span class="n">orientation</span>
+            <span class="p">}</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">points</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">point</span><span class="p">)</span></div>
+</div>
+
+
+<div class="viewcode-block" id="Point.Exclusion">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.Exclusion">[docs]</a>
+    <span class="k">class</span> <span class="nc">Exclusion</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Manages lipid exclusions in the membrane.&quot;&quot;&quot;</span>
+
+        <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">points</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">if</span> <span class="n">data</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_process_data</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+
+        <span class="k">def</span> <span class="nf">_process_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">):</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;Process exclusion data.&quot;&quot;&quot;</span>
+            <span class="k">if</span> <span class="n">data</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="k">return</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
+                <span class="n">data</span><span class="o">.</span><span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]):</span>
+                <span class="n">point</span> <span class="o">=</span> <span class="p">{</span>
+                    <span class="s1">&#39;id&#39;</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="n">i</span><span class="p">]),</span>
+                    <span class="s1">&#39;point_id&#39;</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="n">i</span><span class="p">]),</span>
+                    <span class="s1">&#39;radius&#39;</span><span class="p">:</span> <span class="nb">float</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="n">i</span><span class="p">])</span>
+                <span class="p">}</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">points</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">point</span><span class="p">)</span>
+
+        <span class="nd">@property</span>
+        <span class="k">def</span> <span class="nf">count</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;Number of exclusion points.&quot;&quot;&quot;</span>
+            <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">points</span><span class="p">)</span>
+
+<div class="viewcode-block" id="Point.Exclusion.get_all">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.Exclusion.get_all">[docs]</a>
+        <span class="k">def</span> <span class="nf">get_all</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]:</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;Get all excluded points.&quot;&quot;&quot;</span>
+            <span class="k">return</span> <span class="p">[</span><span class="n">p</span><span class="p">[</span><span class="s1">&#39;point_id&#39;</span><span class="p">]</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">points</span><span class="p">]</span></div>
+
+
+<div class="viewcode-block" id="Point.Exclusion.add_pore">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.Exclusion.add_pore">[docs]</a>
+        <span class="k">def</span> <span class="nf">add_pore</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">point_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">radius</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">):</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">            Add a pore in the lipid membrane.</span>
+
+<span class="sd">            Args:</span>
+<span class="sd">                point_id: Point ID where lipids should be excluded</span>
+<span class="sd">                radius: Radius of exclusion zone</span>
+<span class="sd">            &quot;&quot;&quot;</span>
+            <span class="n">point</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="s1">&#39;id&#39;</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">points</span><span class="p">),</span>
+                <span class="s1">&#39;point_id&#39;</span><span class="p">:</span> <span class="n">point_id</span><span class="p">,</span>
+                <span class="s1">&#39;radius&#39;</span><span class="p">:</span> <span class="n">radius</span>
+            <span class="p">}</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">points</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">point</span><span class="p">)</span></div>
+</div>
+
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Path</span><span class="p">]):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Initialize point class from a point folder.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            path: Path to the point folder</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>
+            <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Point folder not found: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_load_data</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">_load_data</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Load all data from the point folder.&quot;&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="c1"># Try to load outer membrane (required)</span>
+            <span class="n">outer_data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_load_membrane_file</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">path</span> <span class="o">/</span> <span class="s2">&quot;OuterBM.dat&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">outer_data</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span><span class="s2">&quot;OuterBM.dat can not be parsed!&quot;</span><span class="p">)</span>
+
+            <span class="c1"># Set monolayer flag based on presence of InnerBM.dat</span>
+            <span class="n">inner_data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_load_membrane_file</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">path</span> <span class="o">/</span> <span class="s2">&quot;InnerBM.dat&quot;</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">monolayer</span> <span class="o">=</span> <span class="n">inner_data</span> <span class="ow">is</span> <span class="kc">None</span>
+
+            <span class="c1"># Create membrane instances</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">outer</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">Membrane</span><span class="p">(</span><span class="n">outer_data</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">inner</span> <span class="o">=</span> <span class="kc">None</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">monolayer</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">Membrane</span><span class="p">(</span><span class="n">inner_data</span><span class="p">)</span>
+
+            <span class="c1"># Load modifications data</span>
+            <span class="n">inc_data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_load_modification_file</span><span class="p">(</span><span class="s2">&quot;IncData.dat&quot;</span><span class="p">)</span>
+            <span class="n">exc_data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_load_modification_file</span><span class="p">(</span><span class="s2">&quot;ExcData.dat&quot;</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">inclusions</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">Inclusion</span><span class="p">(</span><span class="n">inc_data</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">exclusions</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">Exclusion</span><span class="p">(</span><span class="n">exc_data</span><span class="p">)</span>
+
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Failed to load membrane data&quot;</span><span class="p">,</span> <span class="n">exc_info</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+            <span class="k">raise</span>
+   
+    <span class="k">def</span> <span class="nf">_load_membrane_file</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">file_path</span><span class="p">:</span> <span class="n">Path</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Load membrane definition file.</span>
+<span class="sd">        Returns None if file doesn&#39;t exist.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">file_path</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Membrane file </span><span class="si">{</span><span class="n">file_path</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> not found&quot;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="kc">None</span>
+
+        <span class="k">try</span><span class="p">:</span>
+            <span class="c1"># Read the first few lines to check for Box information</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+                <span class="n">first_lines</span> <span class="o">=</span> <span class="p">[</span><span class="nb">next</span><span class="p">(</span><span class="n">f</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">)]</span>
+
+            <span class="c1"># Store box dimensions if this is OuterBM.dat</span>
+            <span class="k">if</span> <span class="s2">&quot;OuterBM&quot;</span> <span class="ow">in</span> <span class="n">file_path</span><span class="o">.</span><span class="n">name</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">box</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_parse_box_line</span><span class="p">(</span><span class="n">first_lines</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+                <span class="n">skiprows</span> <span class="o">=</span> <span class="mi">4</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">skiprows</span> <span class="o">=</span> <span class="mi">3</span>
+
+            <span class="k">return</span> <span class="n">loadtxt_fix</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">skiprows</span><span class="p">)</span><span class="o">.</span><span class="n">T</span>
+
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error loading </span><span class="si">{</span><span class="n">file_path</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="kc">None</span>
+    
+    <span class="k">def</span> <span class="nf">_parse_box_line</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">tuple</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Parse box dimensions from header line.&quot;&quot;&quot;</span>
+        <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="nb">float</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">4</span><span class="p">]])</span>
+    
+    <span class="k">def</span> <span class="nf">_load_modification_file</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">filename</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Load modification (inclusion/exclusion) file.&quot;&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">loadtxt_fix</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">path</span> <span class="o">/</span> <span class="n">filename</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">T</span>
+        <span class="k">except</span> <span class="p">(</span><span class="ne">ValueError</span><span class="p">,</span> <span class="ne">FileNotFoundError</span><span class="p">):</span>
+            <span class="k">return</span> <span class="kc">None</span>
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">_ensure_path</span><span class="p">(</span><span class="n">path</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Path</span><span class="p">]])</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Path</span><span class="p">]:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Convert string path to Path object if needed.&quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">path</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">None</span>
+        <span class="k">return</span> <span class="n">Path</span><span class="p">(</span><span class="n">path</span><span class="p">)</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span> <span class="k">else</span> <span class="n">path</span>
+
+<div class="viewcode-block" id="Point.save">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.save">[docs]</a>
+    <span class="k">def</span> <span class="nf">save</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">output_path</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Path</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Save membrane structure to files.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            output_path: Path where to save the point folder. If None, saves to original location.</span>
+<span class="sd">                        Backup is only created if saving to the original location.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">output_path</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_ensure_path</span><span class="p">(</span><span class="n">output_path</span><span class="p">)</span> <span class="k">if</span> <span class="n">output_path</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">path</span>
+
+        <span class="c1"># Create backup only if we&#39;re overwriting the original folder</span>
+        <span class="k">if</span> <span class="n">output_path</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">path</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_create_backup</span><span class="p">()</span>
+
+        <span class="c1"># Create output directory if it doesn&#39;t exist</span>
+        <span class="n">output_path</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_save_membranes</span><span class="p">(</span><span class="n">output_path</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_save_modifications</span><span class="p">(</span><span class="n">output_path</span><span class="p">)</span>
+
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Saved point data to: </span><span class="si">{</span><span class="n">output_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span></div>
+
+
+    <span class="k">def</span> <span class="nf">_create_backup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Create a backup of the point folder.</span>
+<span class="sd">        If #folder# exists, creates ##folder##, etc.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">def</span> <span class="nf">get_backup_path</span><span class="p">(</span><span class="n">n_hashes</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Path</span><span class="p">:</span>
+<span class="w">            </span><span class="sd">&quot;&quot;&quot;Generate backup path with specified number of hashes.&quot;&quot;&quot;</span>
+            <span class="n">hashes</span> <span class="o">=</span> <span class="s1">&#39;#&#39;</span> <span class="o">*</span> <span class="n">n_hashes</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">parent</span> <span class="o">/</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">hashes</span><span class="si">}{</span><span class="bp">self</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">name</span><span class="si">}{</span><span class="n">hashes</span><span class="si">}</span><span class="s2">&quot;</span>
+
+        <span class="c1"># Start with one hash on each side</span>
+        <span class="n">n_hashes</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="n">backup_path</span> <span class="o">=</span> <span class="n">get_backup_path</span><span class="p">(</span><span class="n">n_hashes</span><span class="p">)</span>
+
+        <span class="c1"># Keep incrementing hashes until we find a non-existing path</span>
+        <span class="k">while</span> <span class="n">backup_path</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>
+            <span class="n">n_hashes</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">backup_path</span> <span class="o">=</span> <span class="n">get_backup_path</span><span class="p">(</span><span class="n">n_hashes</span><span class="p">)</span>
+
+        <span class="n">shutil</span><span class="o">.</span><span class="n">copytree</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="n">backup_path</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Created backup at: </span><span class="si">{</span><span class="n">backup_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">backup_path</span>
+
+    <span class="k">def</span> <span class="nf">_save_membranes</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">output_path</span><span class="p">:</span> <span class="n">Path</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Save membrane data to files.&quot;&quot;&quot;</span>
+        <span class="c1"># Always save outer membrane</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">outer</span><span class="o">.</span><span class="n">ids</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_save_single_membrane</span><span class="p">(</span><span class="n">output_path</span> <span class="o">/</span> <span class="s2">&quot;OuterBM.dat&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">outer</span><span class="p">)</span>
+
+        <span class="c1"># Save inner membrane only for bilayers</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">monolayer</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">inner</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">inner</span><span class="o">.</span><span class="n">ids</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_save_single_membrane</span><span class="p">(</span><span class="n">output_path</span> <span class="o">/</span> <span class="s2">&quot;InnerBM.dat&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">inner</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_save_single_membrane</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">output_path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">membrane</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Helper method to save a single membrane layer.&quot;&quot;&quot;</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">17</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">membrane</span><span class="o">.</span><span class="n">ids</span><span class="p">)))</span>
+        <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">membrane</span><span class="o">.</span><span class="n">ids</span>
+        <span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">membrane</span><span class="o">.</span><span class="n">domain_ids</span>
+        <span class="n">data</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">membrane</span><span class="o">.</span><span class="n">area</span>
+        <span class="n">data</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span> <span class="o">=</span> <span class="n">membrane</span><span class="o">.</span><span class="n">coordinates</span><span class="o">.</span><span class="n">T</span>
+        <span class="n">data</span><span class="p">[</span><span class="mi">6</span><span class="p">:</span><span class="mi">9</span><span class="p">]</span> <span class="o">=</span> <span class="n">membrane</span><span class="o">.</span><span class="n">normals</span><span class="o">.</span><span class="n">T</span>
+        <span class="n">data</span><span class="p">[</span><span class="mi">9</span><span class="p">:</span><span class="mi">12</span><span class="p">]</span> <span class="o">=</span> <span class="n">membrane</span><span class="o">.</span><span class="n">principal_vectors</span><span class="p">[</span><span class="s1">&#39;p1&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">T</span>
+        <span class="n">data</span><span class="p">[</span><span class="mi">12</span><span class="p">:</span><span class="mi">15</span><span class="p">]</span> <span class="o">=</span> <span class="n">membrane</span><span class="o">.</span><span class="n">principal_vectors</span><span class="p">[</span><span class="s1">&#39;p2&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">T</span>
+        <span class="n">data</span><span class="p">[</span><span class="mi">15</span><span class="p">]</span> <span class="o">=</span> <span class="n">membrane</span><span class="o">.</span><span class="n">curvature</span><span class="p">[</span><span class="s1">&#39;c1&#39;</span><span class="p">]</span>
+        <span class="n">data</span><span class="p">[</span><span class="mi">16</span><span class="p">]</span> <span class="o">=</span> <span class="n">membrane</span><span class="o">.</span><span class="n">curvature</span><span class="p">[</span><span class="s1">&#39;c2&#39;</span><span class="p">]</span>
+
+        <span class="c1"># Create header</span>
+        <span class="n">headers</span> <span class="o">=</span> <span class="p">[]</span>
+
+        <span class="c1"># Add box dimensions for OuterBM.dat</span>
+        <span class="k">if</span> <span class="s2">&quot;Outer&quot;</span> <span class="ow">in</span> <span class="n">output_path</span><span class="o">.</span><span class="n">name</span><span class="p">:</span>
+            <span class="n">headers</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Box     </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">box</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">     </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">box</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">     </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">box</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+        <span class="n">headers</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span>
+            <span class="sa">f</span><span class="s2">&quot;&lt; Point NoPoints     </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">membrane</span><span class="o">.</span><span class="n">ids</span><span class="p">)</span><span class="si">}</span><span class="s2">&gt;&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;&lt; id domain_id area X Y Z Nx Ny Nz P1x P1y P1z P2x P2y P2z C1 C2  &gt;&quot;</span><span class="p">,</span>
+            <span class="sa">f</span><span class="s2">&quot;&lt; </span><span class="si">{</span><span class="s1">&#39;Outer&#39;</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="s1">&#39;Outer&#39;</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">output_path</span><span class="o">.</span><span class="n">name</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="s1">&#39;Inner&#39;</span><span class="si">}</span><span class="s2"> &gt;&quot;</span>
+        <span class="p">])</span>
+
+        <span class="n">header</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">headers</span><span class="p">)</span>
+
+        <span class="n">np</span><span class="o">.</span><span class="n">savetxt</span><span class="p">(</span>
+            <span class="n">output_path</span><span class="p">,</span>
+            <span class="n">data</span><span class="o">.</span><span class="n">T</span><span class="p">,</span>
+            <span class="n">header</span><span class="o">=</span><span class="n">header</span><span class="p">,</span>
+            <span class="n">comments</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span>
+            <span class="n">fmt</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;</span><span class="si">%10d</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">%4d</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">%9.3f</span><span class="s1">&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="s1">&#39;</span><span class="si">%9.3f</span><span class="s1">&#39;</span><span class="p">]</span><span class="o">*</span><span class="mi">3</span> <span class="o">+</span> <span class="p">[</span><span class="s1">&#39;</span><span class="si">%7.3f</span><span class="s1">&#39;</span><span class="p">]</span><span class="o">*</span><span class="mi">11</span>
+        <span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Saved </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">membrane</span><span class="o">.</span><span class="n">ids</span><span class="p">)</span><span class="si">}</span><span class="s2"> points to </span><span class="si">{</span><span class="n">output_path</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_save_modifications</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">output_path</span><span class="p">:</span> <span class="n">Path</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Save inclusion and exclusion data to files.&quot;&quot;&quot;</span>
+        <span class="c1"># Save inclusions</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">inclusions</span><span class="o">.</span><span class="n">points</span><span class="p">:</span>
+            <span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">6</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">inclusions</span><span class="o">.</span><span class="n">points</span><span class="p">)))</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">point</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">inclusions</span><span class="o">.</span><span class="n">points</span><span class="p">):</span>
+                <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">,</span> <span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">point</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">],</span> <span class="n">point</span><span class="p">[</span><span class="s1">&#39;type_id&#39;</span><span class="p">],</span> <span class="n">point</span><span class="p">[</span><span class="s1">&#39;point_id&#39;</span><span class="p">]]</span>
+                <span class="n">data</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">6</span><span class="p">,</span> <span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">point</span><span class="p">[</span><span class="s1">&#39;orientation&#39;</span><span class="p">]</span>
+
+            <span class="n">header</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;&lt; Inclusion NoInc </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">inclusions</span><span class="o">.</span><span class="n">points</span><span class="p">)</span><span class="si">}</span><span class="s2"> &gt;</span><span class="se">\n</span><span class="s2">&quot;</span>
+            <span class="n">header</span> <span class="o">+=</span> <span class="s2">&quot;&lt; id typeid pointid lx ly lz &gt;&quot;</span>
+
+            <span class="n">np</span><span class="o">.</span><span class="n">savetxt</span><span class="p">(</span>
+                <span class="n">output_path</span> <span class="o">/</span> <span class="s2">&quot;IncData.dat&quot;</span><span class="p">,</span>
+                <span class="n">data</span><span class="o">.</span><span class="n">T</span><span class="p">,</span>
+                <span class="n">header</span><span class="o">=</span><span class="n">header</span><span class="p">,</span>
+                <span class="n">comments</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span>
+                <span class="n">fmt</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;</span><span class="si">%12d</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">%12d</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">%12d</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">%8.3f</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">%8.3f</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">%8.3f</span><span class="s1">&#39;</span><span class="p">]</span>
+            <span class="p">)</span>
+
+        <span class="c1"># Save exclusions</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">exclusions</span><span class="o">.</span><span class="n">points</span><span class="p">:</span>
+            <span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exclusions</span><span class="o">.</span><span class="n">points</span><span class="p">)))</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">point</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exclusions</span><span class="o">.</span><span class="n">points</span><span class="p">):</span>
+                <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">,</span> <span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">point</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">],</span> <span class="n">point</span><span class="p">[</span><span class="s1">&#39;point_id&#39;</span><span class="p">],</span> <span class="n">point</span><span class="p">[</span><span class="s1">&#39;radius&#39;</span><span class="p">]]</span>
+
+            <span class="n">header</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;&lt; Exclusion NoExc </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exclusions</span><span class="o">.</span><span class="n">points</span><span class="p">)</span><span class="si">}</span><span class="s2"> &gt;</span><span class="se">\n</span><span class="s2">&quot;</span>
+            <span class="n">header</span> <span class="o">+=</span> <span class="s2">&quot;&lt; id typeid radius &gt;&quot;</span>
+
+            <span class="n">np</span><span class="o">.</span><span class="n">savetxt</span><span class="p">(</span>
+                <span class="n">output_path</span> <span class="o">/</span> <span class="s2">&quot;ExcData.dat&quot;</span><span class="p">,</span>
+                <span class="n">data</span><span class="o">.</span><span class="n">T</span><span class="p">,</span>
+                <span class="n">header</span><span class="o">=</span><span class="n">header</span><span class="p">,</span>
+                <span class="n">comments</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span>
+                <span class="n">fmt</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;</span><span class="si">%12d</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">%12d</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">%12d</span><span class="s1">&#39;</span><span class="p">]</span>
+            <span class="p">)</span>
+
+<div class="viewcode-block" id="Point.update_domains">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.update_domains">[docs]</a>
+    <span class="k">def</span> <span class="nf">update_domains</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">domain_ids</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Update domain assignments for membrane layer(s).</span>
+<span class="sd">        For bilayers, updates both leaflets. For monolayers, updates only the outer leaflet.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            domain_ids: New domain assignments as numpy array</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">domain_ids</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;No domain IDs provided for update&quot;</span><span class="p">)</span>
+            <span class="k">return</span>
+
+        <span class="c1"># Update outer membrane (always present)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">domain_ids</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">outer</span><span class="o">.</span><span class="n">ids</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;Domain IDs length (</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">domain_ids</span><span class="p">)</span><span class="si">}</span><span class="s2">) does not match &quot;</span>
+                <span class="sa">f</span><span class="s2">&quot;number of membrane points (</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">outer</span><span class="o">.</span><span class="n">ids</span><span class="p">)</span><span class="si">}</span><span class="s2">)&quot;</span>
+            <span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">outer</span><span class="o">.</span><span class="n">domain_ids</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">domain_ids</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">int</span><span class="p">)</span>
+
+        <span class="c1"># Update inner membrane if this is a bilayer</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">monolayer</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">inner</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">inner</span><span class="o">.</span><span class="n">domain_ids</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">domain_ids</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">int</span><span class="p">)</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Updated domains for both leaflets&quot;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Updated domains for outer leaflet only&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="Point.create_empty">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.create_empty">[docs]</a>
+    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">create_empty</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">box</span><span class="p">,</span> <span class="n">monolayer</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Create an empty Point instance.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            box: Tuple of (x, y, z) box dimensions</span>
+<span class="sd">            monolayer: If True, only creates outer membrane layer</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">instance</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">)</span>
+        <span class="n">instance</span><span class="o">.</span><span class="n">path</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="n">instance</span><span class="o">.</span><span class="n">box</span> <span class="o">=</span> <span class="n">box</span>
+        <span class="n">instance</span><span class="o">.</span><span class="n">monolayer</span> <span class="o">=</span> <span class="n">monolayer</span>
+
+        <span class="c1"># Initialize outer membrane (always present)</span>
+        <span class="n">instance</span><span class="o">.</span><span class="n">outer</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">Membrane</span><span class="o">.</span><span class="n">create_empty</span><span class="p">()</span>
+
+        <span class="c1"># Initialize inner membrane only for bilayers</span>
+        <span class="n">instance</span><span class="o">.</span><span class="n">inner</span> <span class="o">=</span> <span class="kc">None</span> <span class="k">if</span> <span class="n">monolayer</span> <span class="k">else</span> <span class="bp">cls</span><span class="o">.</span><span class="n">Membrane</span><span class="o">.</span><span class="n">create_empty</span><span class="p">()</span>
+
+        <span class="c1"># Initialize modifications</span>
+        <span class="n">instance</span><span class="o">.</span><span class="n">inclusions</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">Inclusion</span><span class="p">()</span>
+        <span class="n">instance</span><span class="o">.</span><span class="n">exclusions</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">Exclusion</span><span class="p">()</span>
+
+        <span class="k">return</span> <span class="n">instance</span></div>
+
+
+<div class="viewcode-block" id="Point.add_membrane_points">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.add_membrane_points">[docs]</a>
+    <span class="k">def</span> <span class="nf">add_membrane_points</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">coordinates</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">,</span> <span class="n">normals</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+                          <span class="n">domain_ids</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">areas</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+                          <span class="n">bilayer_spacing</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">4.0</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Add points to membrane layer(s) with proper bilayer spacing.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            coordinates: Nx3 array of point coordinates (midplane coordinates)</span>
+<span class="sd">            normals: Nx3 array of normal vectors (optional)</span>
+<span class="sd">            domain_ids: Array of domain IDs (optional)</span>
+<span class="sd">            areas: Array of point areas (optional)</span>
+<span class="sd">            bilayer_spacing: Distance between leaflets in nm (default=4.0, only used for bilayers)</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># Generate default normals if not provided (pointing up)</span>
+        <span class="k">if</span> <span class="n">normals</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">normals</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros_like</span><span class="p">(</span><span class="n">coordinates</span><span class="p">)</span>
+            <span class="n">normals</span><span class="p">[:,</span> <span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.0</span>
+
+        <span class="c1"># Normalize the normal vectors</span>
+        <span class="n">normals</span> <span class="o">=</span> <span class="n">normals</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">normals</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)[:,</span> <span class="n">np</span><span class="o">.</span><span class="n">newaxis</span><span class="p">]</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">monolayer</span><span class="p">:</span>
+            <span class="c1"># For monolayer, use coordinates directly for outer membrane</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">outer</span><span class="o">.</span><span class="n">add_points</span><span class="p">(</span><span class="n">coordinates</span><span class="p">,</span> <span class="n">normals</span><span class="p">,</span> <span class="n">domain_ids</span><span class="p">,</span> <span class="n">areas</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1"># For bilayer, offset both leaflets from the midplane</span>
+            <span class="n">half_spacing</span> <span class="o">=</span> <span class="n">bilayer_spacing</span> <span class="o">/</span> <span class="mi">2</span>
+
+            <span class="c1"># Add outer leaflet</span>
+            <span class="n">outer_coordinates</span> <span class="o">=</span> <span class="n">coordinates</span> <span class="o">+</span> <span class="n">normals</span> <span class="o">*</span> <span class="n">half_spacing</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">outer</span><span class="o">.</span><span class="n">add_points</span><span class="p">(</span><span class="n">outer_coordinates</span><span class="p">,</span> <span class="n">normals</span><span class="p">,</span> <span class="n">domain_ids</span><span class="p">,</span> <span class="n">areas</span><span class="p">)</span>
+
+            <span class="c1"># Add inner leaflet</span>
+            <span class="n">inner_coordinates</span> <span class="o">=</span> <span class="n">coordinates</span> <span class="o">-</span> <span class="n">normals</span> <span class="o">*</span> <span class="n">half_spacing</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">inner</span><span class="o">.</span><span class="n">add_points</span><span class="p">(</span><span class="n">inner_coordinates</span><span class="p">,</span> <span class="o">-</span><span class="n">normals</span><span class="p">,</span> <span class="n">domain_ids</span><span class="p">,</span> <span class="n">areas</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="Point.add_lipids">
+<a class="viewcode-back" href="../../PointClass.html#PointClass.point.Point.add_lipids">[docs]</a>
+    <span class="k">def</span> <span class="nf">add_lipids</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">coordinates</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">,</span> <span class="n">normals</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">,</span>
+                <span class="n">domain_ids</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">areas</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+                <span class="n">bilayer_spacing</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">4.0</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        convenience method to add lipids to the membrane.</span>
+<span class="sd">        adds points to both leaflets offset by bilayer_spacing along the normal vectors.</span>
+
+<span class="sd">        args:</span>
+<span class="sd">            coordinates: nx3 array of midplane lipid positions</span>
+<span class="sd">            domain_ids: array of domain ids (optional)</span>
+<span class="sd">            layer: which layer to add lipids to (&quot;both&quot;, &quot;inner&quot;, or &quot;outer&quot;)</span>
+<span class="sd">            bilayer_spacing: distance between inner and outer leaflets in nm (default=4.0)</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">add_membrane_points</span><span class="p">(</span>
+            <span class="n">coordinates</span><span class="p">,</span>
+            <span class="n">normals</span><span class="o">=</span><span class="n">normals</span><span class="p">,</span>
+            <span class="n">domain_ids</span><span class="o">=</span><span class="n">domain_ids</span><span class="p">,</span>
+            <span class="n">areas</span><span class="o">=</span><span class="n">areas</span><span class="p">,</span>
+            <span class="n">bilayer_spacing</span><span class="o">=</span><span class="n">bilayer_spacing</span>
+        <span class="p">)</span></div>
+</div>
+
+</pre></div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright Weria Pezeshkian, 2024.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>
