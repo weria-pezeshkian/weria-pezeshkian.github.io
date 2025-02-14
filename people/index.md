@@ -47,3 +47,7 @@ image:
 
 [Andrew Bach Villadsen](/people/andrew_villadsen)<br />
 ([wvl158@alumni.ku.dk](mailto:wvl158@alumni.ku.dk))
+
+## Bachelor Students
+[Catrine Trudslev](/people/catrine_trudslev)<br />
+[pbd431@alumni.ku.dk](pbd431@alumni.ku.dk)
