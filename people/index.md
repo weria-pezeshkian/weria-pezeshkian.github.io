@@ -49,5 +49,9 @@ image:
 ([wvl158@alumni.ku.dk](mailto:wvl158@alumni.ku.dk))
 
 ## Bachelor Students
+
 [Catrine Trudslev](/people/catrine_trudslev)<br />
 [pbd431@alumni.ku.dk](pbd431@alumni.ku.dk)
+
+[Filip K. Keinicke](/people/filip_keinicke)<br />
+[bdv966@alumni.ku.dk](bdv966@alumni.ku.dk)
