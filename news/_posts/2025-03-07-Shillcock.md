@@ -1,7 +1,7 @@
 ---
 layout: news
 title: "Julian Shillcock visited the group"  
-excerpt: "" 
+excerpt: "and gave a talk on Wednesday" 
 image:
   feature: banner.png
 ---
