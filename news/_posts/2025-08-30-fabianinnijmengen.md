@@ -11,5 +11,5 @@ image:
 Fabian had a two week stay at the Donders Institute for Neuroscience at the Radboud University in Nijmegen, Netherlands. The trip was funded by the Dr. phil. Ragna Rask-Nielsens Grundforksningsfond.
 
 
-![Isabell won](/news/images/fabianinnijmenge.jpg)
+![Fabian in Nijmegen](/news/images/fabianinnijmenge.jpg)
 
