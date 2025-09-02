@@ -10,4 +10,6 @@ image:
 
 We are very proud of Isabell for winning the Science Slam in Copenhagen. Congratulations on this great achievement!
 
-![Isabell won](/news/images/isabellscienceslam.jpg)
+
+<img src="/news/images/isabellscienceslam.jpg" alt="Isabell won" style="width:50%; height:auto;">
+
