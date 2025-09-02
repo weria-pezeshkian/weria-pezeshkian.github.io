@@ -6,7 +6,7 @@ image:
   feature: banner.png
 ---
 
-## Isabell won the Science Sclam Copenhagen
+## Isabell won the Science Slam Copenhagen
 
 We are very proud of Isabell for winning the Science Slam in Copenhagen. Congratulations on this great achievement!
 
