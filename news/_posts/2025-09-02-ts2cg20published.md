@@ -1,7 +1,7 @@
 ---
 layout: news
 title: 'New Publication: TS2CG as a Membrane Builder'
-excerpt: "J. Chem. Theory (2025)" 
+excerpt: "J. Chem. Theory Comput. (2025)" 
 image:
   feature: banner.png
 ---
