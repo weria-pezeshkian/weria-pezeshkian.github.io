@@ -50,6 +50,9 @@ image:
 
 ## Bachelor Students
 
+
+## Alumni
+
 [Catrine Trudslev](/people/catrine_trudslev)<br />
 [pbd431@alumni.ku.dk](pbd431@alumni.ku.dk)
 
