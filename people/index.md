@@ -38,10 +38,6 @@ image:
 
 ## Master Students
 
-[Dimitrios Anastasiou](/people/dimitrios_anastasiou)<br />
-([bqg849@alumni.ku.dk](mailto:bqg849@alumni.ku.dk))
-
-
 [Cecilie K. Nøhr](/people/cecilie_noehr)<br />
 ([fsh823@ku.dk](mailto:fsh823@ku.dk))
 
@@ -52,6 +48,9 @@ image:
 
 
 ## Alumni
+
+[Dimitrios Anastasiou](/people/dimitrios_anastasiou)<br />
+([bqg849@alumni.ku.dk](mailto:bqg849@alumni.ku.dk))
 
 [Catrine Trudslev](/people/catrine_trudslev)<br />
 [pbd431@alumni.ku.dk](pbd431@alumni.ku.dk)
