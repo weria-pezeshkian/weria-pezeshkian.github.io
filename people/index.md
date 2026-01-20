@@ -41,6 +41,7 @@ image:
 [Cecilie K. Nøhr](/people/cecilie_noehr)<br />
 ([fsh823@ku.dk](mailto:fsh823@ku.dk))
 
+[hampus Högqvist Bandefur](/people/hampus_hoegqvist_bandefur)<br />
 ## Bachelor Students
 
 
