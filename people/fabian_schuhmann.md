@@ -22,6 +22,7 @@ image:
 2020-2023: Ph.D. in Physics, Carl von Ossietzy Universität Oldenburg <br/>
 
 # Teaching
+**2025-2025**: Supervision of three three-student groups for "Data og Projekt"<br>
 **2023-2023**: Tutor "Einführung in die theoretische Physik (Rechen- und Programmierübung)"<br>
 **2021-2021**: Lecturer "Vorkurs Mathematik für künftige Studierende der Physik"<br>
 **2020-2020**: Tutor for "Mathematical Modelling" at Carl von Ossietzky University Oldenburg<br>

@@ -41,9 +41,17 @@ image:
 [Cecilie K. Nøhr](/people/cecilie_noehr)<br />
 ([fsh823@ku.dk](mailto:fsh823@ku.dk))
 
-[hampus Högqvist Bandefur](/people/hampus_hoegqvist_bandefur)<br />
+[Hampus Högqvist Bandefur](/people/hampus_hoegqvist_bandefur)<br />
+([stx948@alumni.ku.dk](mailto:stx948@alumni.ku.dk))
+
+[Daniel Holm Johansen](/people/daniel_holm_johansen)<br />
+([rnl434@alumni.ku.dk](mailto:rnl434@alumni.ku.dk))
+
+
 ## Bachelor Students
 
+[Benjamin D. Johansson](/people/benjamin_johansson)<br />
+([qpn822@alumni.ku.dk](mailto:qpn822@alumni.ku.dk))
 
 ## Alumni
 
