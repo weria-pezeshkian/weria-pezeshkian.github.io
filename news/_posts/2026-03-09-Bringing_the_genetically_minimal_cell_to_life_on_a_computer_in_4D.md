@@ -1,7 +1,7 @@
 ---
 layout: news
 title: 'New Publication: Bringing the genetically minimal cell to life on a computer in 4D'
-excerpt: "Cell, https://doi.org/10.1016/j.cell.2026.02.009" 
+excerpt: "Cell, 189, 1–16 (2026)" 
 image:
   feature: banner.png
 ---
