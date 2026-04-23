@@ -24,6 +24,16 @@ plugins:
   - jekyll-sitemap
   - jekyll-coffeescript
   - jekyll-paginate
+  - jekyll-scholar
+
+scholar:
+  style: apa
+  locale: en
+  source: ./
+  bibliography: publications/ref.bib
+  sort_by: year
+  order: descending
+  query: "@*"
 
 kramdown:
   auto_ids: true
