@@ -86,6 +86,8 @@ GEM
     json (2.19.5)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
     latex-decode (0.4.2)
     liquid (4.0.4)
     listen (3.10.0)
@@ -170,6 +172,7 @@ DEPENDENCIES
   jekyll (~> 3.9)
   jekyll-scholar
   jekyll-sitemap
+  kramdown-parser-gfm
   minimal-mistakes-jekyll
   octopress (~> 3.0.0.rc.12)
   webrick (~> 1.8)
