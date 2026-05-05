@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.9.0)
       public_suffix (>= 2.0.2, < 8.0)
-    bibtex-ruby (4.4.7)
+    bibtex-ruby (4.4.6)
       latex-decode (~> 0.0)
     citeproc (1.1.0)
       date
@@ -177,6 +177,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  bibtex-ruby (= 4.4.6)
   jekyll (~> 3.9)
   jekyll-coffeescript
   jekyll-scholar
