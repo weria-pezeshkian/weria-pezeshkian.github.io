@@ -50,7 +50,7 @@ github: [metadata]
 highlighter: rouge
 incremental: false
 lsi: false
-safe: true
+safe: false
 
 # Site owner
 owner:
