@@ -2,7 +2,6 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 3.9"
 gem "minimal-mistakes-jekyll"
-gem "jekyll-scholar"
 gem "bibtex-ruby", "4.4.6"
 gem "jekyll-sitemap"
 gem "jekyll-coffeescript"

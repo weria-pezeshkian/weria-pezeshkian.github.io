@@ -24,7 +24,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-coffeescript
   - jekyll-paginate
-  - jekyll-scholar
 
 scholar:
   style: apa

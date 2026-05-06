@@ -1,9 +1,8 @@
 ---
-layout: page 
+layout: page
 excerpt: "Publications"
 image:
   feature: banner.png
-
 ---
 
-{% bibliography  %}
+{% include_relative generated.md %}
