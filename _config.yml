@@ -33,7 +33,6 @@ scholar:
   bibliography: publications/ref.bib
   sort_by: year
   order: descending
-  query: "@*"
 
 kramdown:
   auto_ids: true

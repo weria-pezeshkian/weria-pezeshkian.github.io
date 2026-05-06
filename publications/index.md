@@ -6,4 +6,4 @@ image:
 
 ---
 
-{% bibliography --query @* %}
+{% bibliography  %}
