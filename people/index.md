@@ -41,9 +41,6 @@ image:
 [Cecilie K. Nøhr](/people/cecilie_noehr)<br />
 ([fsh823@ku.dk](mailto:fsh823@ku.dk))
 
-[Hampus Högqvist Bandefur](/people/hampus_hoegqvist_bandefur)<br />
-([stx948@alumni.ku.dk](mailto:stx948@alumni.ku.dk))
-
 [Daniel Holm Johansen](/people/daniel_holm_johansen)<br />
 ([rnl434@alumni.ku.dk](mailto:rnl434@alumni.ku.dk))
 
@@ -54,6 +51,9 @@ image:
 ([qpn822@alumni.ku.dk](mailto:qpn822@alumni.ku.dk))
 
 ## Alumni
+
+[Hampus Högqvist Bandefur](/people/hampus_hoegqvist_bandefur)<br />
+([stx948@alumni.ku.dk](mailto:stx948@alumni.ku.dk))
 
 [Andrew Bach Villadsen](/people/andrew_villadsen)<br />
 ([wvl158@alumni.ku.dk](mailto:wvl158@alumni.ku.dk))
