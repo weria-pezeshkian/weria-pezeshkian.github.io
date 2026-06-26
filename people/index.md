@@ -47,10 +47,10 @@ image:
 
 ## Bachelor Students
 
+## Alumni
+
 [Benjamin D. Johansson](/people/benjamin_johansson)<br />
 ([qpn822@alumni.ku.dk](mailto:qpn822@alumni.ku.dk))
-
-## Alumni
 
 [Hampus Högqvist Bandefur](/people/hampus_hoegqvist_bandefur)<br />
 ([stx948@alumni.ku.dk](mailto:stx948@alumni.ku.dk))
