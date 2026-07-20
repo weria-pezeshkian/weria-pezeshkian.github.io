@@ -8,6 +8,6 @@ image:
 
 ##  Benjamin defends his thesis
 
-Our bachelor student Benjamin successfully defended is thesis.
+Our bachelor student Benjamin successfully defended is thesis with the title "Membrane Repair Mechanisms Using Mesoscale Simulations".
 
 
