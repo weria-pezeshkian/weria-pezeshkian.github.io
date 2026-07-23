@@ -38,6 +38,9 @@ image:
 
 ## Master Students
 
+[Simon Mygind](/people/simon_mygind)<br />
+([ndf209@ku.dk](ndf209@ku.dk))
+
 [Daniel Holm Johansen](/people/daniel_holm_johansen)<br />
 ([rnl434@alumni.ku.dk](mailto:rnl434@alumni.ku.dk))
 
