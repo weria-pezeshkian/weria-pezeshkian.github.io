@@ -1,4 +1,4 @@
-# NBI Computational Microscope Group webpage based on the Jekyll template [Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)
+# Computational Microscope Group webpage based on the Jekyll template [Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)
 
 See a [live version of this website](http://weria-pezeshkian.github.io/) hosted on GitHub.
 For more information on the template and folder organization, visit the [original author's
